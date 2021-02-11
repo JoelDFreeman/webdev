@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+		</style>
+        <script type="text/javascript" src="PlannedConditionalLogic.js"></script>
+</head>
+    
+<body>
+    
+        <header>
+            <h1>Routes at Crag List</h1>
+        </header>
+        </head>
+				<ul>
+		  <li><a class="active" href="ProjectFrontPage.html">Home</a></li>
+		  <li><a href="ValidationFunctions.html">ValidationFunctions</a></li>
+		  <li><a href="DateExternal.html">DateExternal</a></li>
+		  <li><a href="PlannedConditionalLogic.html">Conditional_Logic</a></li>
+		  <li><a href="Loops&Arrays.html">Loops&Arrays</a></li>
+          <li><a href="gallerynew.html">Gallery</a></li>
+		</ul>
+			<meta charset="utf-8">
+			<title>Frontpage</title>
+			<link rel="stylesheet" href ="divstyles.css" type="text/css">
+			<html lang="en-gb">
+		
+            <h2>
+				Route Grades
+			</h2>
+			
+            <p class="intro">Please enter the name of a route to see the difficulty grade:</p>
+
+            <p>There are several Grades for climbing with increasing difficulty; </p>
+                <p> Dif   =Difficult </p>
+                <p> V-Dif =Very Difficult </p>
+                <p> Sev   =Severe </p>
+                <p> E1    =Extreme 1 </p>
+                <p> E2    =Extreme 2 </p>
+                <p> E3    =Extreme 3 </p>
+
+            <p>
+                Route Required (Corner chimney): <input id="myValue" value="Corner chimney" />
+                <button onclick="Calculate()">Display Grade</button><!-- When clicked will run calculate script from "PlannedConditionalLogic.js" -->
+            <p id="message"></p>
+            </p>
+            
+
+            
+        </article> 
+        
+    </div>
+</body>
+</html>

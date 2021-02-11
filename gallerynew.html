@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+		</style>
+        <script type="text/javascript" src="Loops&Arrays.js"></script>
+</head>
+    
+<body>
+    
+        <header>
+            <h1>Routes at Crag List</h1>
+        </header>
+        </head>
+				<ul>
+		  <li><a class="active" href="ProjectFrontPage.html">Home</a></li>
+		  <li><a href="ValidationFunctions.html">ValidationFunctions</a></li>
+		  <li><a href="DateExternal.html">DateExternal</a></li>
+		  <li><a href="PlannedConditionalLogic.html">Conditional_Logic</a></li>
+		  <li><a href="Loops&Arrays.html">Loops&Arrays</a></li>
+          <li><a href="gallerynew.html">Gallery</a></li>
+		</ul>
+		</div>
+			<meta charset="utf-8">
+			<title>Frontpage</title>
+			<link rel="stylesheet" href ="divstyles.css" type="text/css">
+			<html lang="en-gb">
+<body>
+
+
+    <h2>
+     Some images from previous events:<br>
+    <br></h2>
+    
+    <script>
+	
+	var delay = 2000;
+	var imageNum = 0;
+	
+
+		theImages=new Array(3);
+
+		for (i=0; i<4;i++)
+		{
+			theImages[i]=new Image();
+			theImages[i].src="image"+ i +".jpg";
+		}
+  
+        
+
+        function animate()
+        {
+
+        document.animation.src=theImages[imageNum].src;
+        imageNum++;
+
+        if (imageNum>3)
+                {imageNum=0;}
+        }
+
+
+
+
+
+	</script> <!-- Script altered from script in GalleryNew.Html from Week 6 Project  -->
+    
+    <img Name="animation"src="image0.jpg" height="372" width="500" onLoad="stopit=setTimeout('animate()',2000)"> 
+    
+
+
+
+
+
+</body>
+</html> 
